@@ -12,6 +12,10 @@
 html{
     scroll-behavior: smooth;
 }
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .container{
     background: url(./images/Rectangle\ 2.png);
     width: 100%;
@@ -126,15 +130,15 @@ height: 287px;
     margin-top: 83px;
     margin-right: 117px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 162.52%;
-/* or 39px */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 162.52%;
+    /* or 39px */
 
 
 
-color: #6B6B6B;
+    color: #6B6B6B;
 }
 .eventtxt span{
     font-weight: 900;
@@ -157,7 +161,7 @@ hr{
     margin-right: 117px;
     margin-bottom: 72px;
     width: 384px;
-height: 275px;
+    height: 275px;
 }
 
 .eventtxt1{
@@ -166,17 +170,19 @@ height: 275px;
     margin-right: 29px;
     margin-bottom: 72px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 162.52%;
-/* or 39px */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 162.52%;
+    /* or 39px */
 
-color: #6B6B6B;
-}
+    color: #6B6B6B;
+    }
 .team{
     background: url(./images/Rectangle\ 4.png);
     color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .team .heading{
     color: #ffffff;
@@ -186,6 +192,7 @@ color: #6B6B6B;
     margin-left: 117px;
     margin-right: 442px;
     margin-top: 60px;
+    padding-bottom: 30px;
 }
 
 .details h4{
@@ -229,21 +236,21 @@ color: #6B6B6B;
     background-size: cover;
     margin-right: 19px;
 }.img2{
-    background: url(./images/myimg.jpg);
+    background: url(./images/SHUBHAM.jpg);
     width: 200px;
     height: 200px;
     border-radius: 100px;
     background-size: cover;
     margin-right: 19px;
 }.img3{
-    background: url(./images/myimg.jpg);
+    background: url(./images/SAVHAR.jpg);
     width: 200px;
     height: 200px;
     border-radius: 100px;
     background-size: cover;
     margin-right: 19px;
 }.img4{
-    background: url(./images/myimg.jpg);
+    background: url(./images/DIVYAM.jpg);
     width: 200px;
     height: 200px;
     border-radius: 100px;

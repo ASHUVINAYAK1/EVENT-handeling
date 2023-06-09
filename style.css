@@ -254,6 +254,8 @@ background: #FFFFFF;
 }
 .ul{
   /* list-style: disc; */
+  margin-top: 10px;
+  margin-left: 30px;
   
   text-align: center;
 }
@@ -325,7 +327,7 @@ border-image-source: conic-gradient(from 180deg at 50% 50%, #3315A1 0deg, #F8417
 .tile1{
   display: flex;
 }
-.eventimg{
+.eventimg img{
   margin-left: 118px;
   width: 399px;
   height: 267px;
@@ -369,7 +371,9 @@ hr{
 .tile2{
   display: flex;
 }
-.eventimg1{
+.eventimg1 img{
+  width: 399px;
+height: 267px;
   margin-top: 83px;
   margin-right: 117px;
   margin-bottom: 72px;
