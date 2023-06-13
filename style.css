@@ -472,6 +472,19 @@ textarea{
   margin-right: 40%;
   
 }
+select{
+  
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  margin-bottom: 45px;
+  margin-left: 40px;
+  width: 575px;
+  height: 52px;
+  
+}
 .button button{
   width: 100%;
   height: 100%;

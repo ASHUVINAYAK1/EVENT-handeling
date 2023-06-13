@@ -54,7 +54,7 @@ a{
     line-height: 24px;
     text-transform: uppercase;
 }
-.part2 ul li:hover{
+.part2 ul li a:hover{
     color: crimson;
     cursor: pointer;
 }
@@ -194,7 +194,13 @@ hr{
     margin-top: 60px;
     padding-bottom: 30px;
 }
-
+.details a:hover{
+    color: crimson;
+}
+.details p:hover{
+    color: #F3F9FF;
+    cursor: pointer;
+}
 .details h4{
     height: 43px;
     left: 336px;
@@ -207,7 +213,7 @@ hr{
 
     text-transform: uppercase;
 
-    color: #DCDCDC;
+    color: royalblue;
 }
 .details{
     margin-left: 40px;

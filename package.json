@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "firebase": "^9.22.2"
+  },
+  "name": "nesthive-3rd-page",
+  "version": "1.0.0",
+  "main": "aboutsricpt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASHUVINAYAK1/EVENT-handeling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASHUVINAYAK1/EVENT-handeling/issues"
+  },
+  "homepage": "https://github.com/ASHUVINAYAK1/EVENT-handeling#readme",
+  "description": ""
+}

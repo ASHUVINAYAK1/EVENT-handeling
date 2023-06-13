@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+    
+
     <title>Nesthive</title>
 </head>
 <body>
+    
+
     <div class="start" id="start"></div>
     <div class="container">
         <div class="header">
@@ -21,7 +25,7 @@
                     <li><a href="#start">HOME</li></a>
                     <li id="#"><a href="about.html">ABOUT</li></a>
                     <li id="#"><a href="#Services">SERVICES</li></a>
-                    <li id="#"><a href="#contact">CONTACT</li></a>
+                    <li id="#"><a href="#contact">REGISTER</li></a>
                 </ul>
             </div>
         </div>
@@ -152,26 +156,34 @@
     </div>
     <div class="contact" id="contact">
         <div class="txt">
-            <h2>Contact Us</h2>
+            <h2>Rgister</h2>
             <p>Mobile Number- 9315555935</p>
-            <p>Email number- ashuvinayak1508@gmail.com</p>
+            <p>Email number- nesthive@gmail.com</p>
         </div>
         <div class="input">
             <div class="name">
                 <form>
-                    <input type="text" placeholder="your name"></form>
-                    <form><input type="number" placeholder="phone number"></form>
-                    <form><input type="email" placeholder="mail id"></form>
+                    <input type="text" placeholder="your name" id="name"></form>
+                    <form><input type="number" placeholder="phone number" id="num"></form>
+                    <form><input type="email" placeholder="mail id" id="mail"></form>
                 
             </div>
             <div class="message">
-                <textarea id="" cols="30" rows="10" placeholder="Your message..." required></textarea>
+                <select id="event">
+                    <option value="none" selected>--select option--</option>
+                    <option value="corporate">Corporate Event</option>
+                    <option value="parties">party</option>
+                    <option value="marriages">Marriage</option>
+                    <option value="educational">Educational Event</option>
+                  </select>                  
+                <textarea id="message" cols="30" rows="10" placeholder="Details" required ></textarea>
             </div>
         </div>
         <div class="button">
-            <button type="submit">Send message</button>
+            <button type="submit" onclick="save()">Send message</button>
         </div>
     </div>
     <script src="sricpt.js"></script>
 </body>
+
 </html>
